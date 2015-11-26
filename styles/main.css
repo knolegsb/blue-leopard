@@ -27,6 +27,12 @@ h1 {
     line-height: 1.2656em;
     margin-top: 0.4219em;
     margin-bottom: 0;
+    color: red;
+}
+
+h1{
+    color:blue;
+    font-size: 10em;
 }
 
 h2{
@@ -52,4 +58,36 @@ p{
 
 img {
     width: 100%;
+}
+
+a:link{
+    color:rgb(172, 140, 71);
+}
+
+a:visited{
+    color:rgb(100,81,41);
+}
+
+a:hover{
+    color:rgb(224,182,99);
+}
+
+a:active{
+    color:rgb(252, 217, 142)
+}
+
+/*
+    GLOBAL FOOTER STYLE
+*/
+
+footer{
+    padding: 10px 0;
+}
+
+footer h4 {
+    text-transform: uppercase;
+}
+
+footer p{
+    margin: 0;
 }
