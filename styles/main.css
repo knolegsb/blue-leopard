@@ -16,6 +16,18 @@
 body {
     font-size: 19px;
     font-family: Calibri, Candara, "Segoe UI", Arial, sans-serif;
+    color: rgb(226,226,226);
+    background: rgb(15,15,15);
+    background-image: url(../images/background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 2% 6% 6% 6%;
+}
+
+.container{
+    background: rgb(15,15,15);
+    background: rgba(15,15,15,0.74);
+    padding: 30px;
 }
 
 h1, h2, h3 {
@@ -26,13 +38,7 @@ h1 {
     font-size: 3.3684em;
     line-height: 1.2656em;
     margin-top: 0.4219em;
-    margin-bottom: 0;
-    color: red;
-}
-
-h1{
-    color:blue;
-    font-size: 10em;
+    margin-bottom: 0;    
 }
 
 h2{
@@ -74,6 +80,17 @@ a:hover{
 
 a:active{
     color:rgb(252, 217, 142)
+}
+/*
+    LOGO STYLE
+*/
+
+.logo {
+    display: block;
+}
+
+.logo img{
+    width:150px;
 }
 
 /*
