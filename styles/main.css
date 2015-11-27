@@ -24,6 +24,12 @@ body {
     padding: 2% 6% 6% 6%;
 }
 
+@media screen and (min-width: 750px){
+    body{
+        font-size: 1.3em;
+    }
+}
+
 .container{
     background: rgb(15,15,15);
     background: rgba(15,15,15,0.74);
@@ -177,11 +183,38 @@ a:active{
 }
 
 @media screen and (min-width: 750px){
+    .main-navigation {
+        min-height: 80px;
+        border-top: 1px solid rgb(36,36,36);
+        border-bottom: 1px solid rgb(36,36,36);
+    }
+    .main-navigation ul {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
     .main-navigation li {
         float: left;
         margin-left: 20px;
+        width: 28%;
     }
-} /* media query for */
+
+    .main-navigation a {
+        background:none;
+    }
+
+    .main-navigation a:hover {
+        background:none;
+    }
+} /* media query for 780*/
+
+@media screen and (min-width: 880px){
+    .main-navigation ul {
+        position: relative;
+        margin-left: -20px;
+        
+    }
+} /* media query for 880px */
 
 /*
     MENU PAGE STYLES
