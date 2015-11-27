@@ -68,6 +68,7 @@ p{
     line-height: 1.4211em;
     margin-top: 1.4211em;
     margin-bottom: 0;
+    font-weight:100;
 }
 
 img {
@@ -125,6 +126,12 @@ a:active{
 
 .gallery{
     margin-top: 30px;
+}
+
+@media screen and (min-width: 750px){
+    .landing{
+        text-align: center;
+    }
 }
 
 /*
