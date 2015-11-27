@@ -104,8 +104,25 @@ a:active{
     border-radius: 8px;
 }
 
+.featured-info h3 {
+    border-bottom: 1px solid rgb(128,128,128);
+}
+
+.featured-info p {
+    font-style: italic;
+}
+
+.featured-info ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.gallery{
+    margin-top: 30px;
+}
+
 /*
-    LOGO STYLE
+    LOGO STYLES
 */
 
 .logo {
@@ -119,7 +136,7 @@ a:active{
 }
 
 /*
-    MAIN NAVIGATION STYLE
+    MAIN NAVIGATION STYLES
 */
 
 .main-navigation{
@@ -159,25 +176,24 @@ a:active{
     color:rgb(172,140,71);
 }
 
+@media screen and (min-width: 750px){
+    .main-navigation li {
+        float: left;
+        margin-left: 20px;
+    }
+} /* media query for */
+
 /*
-    HOME PAGE STYLE
+    MENU PAGE STYLES
 */
 
-.featured-info h3 {
-    border-bottom: 1px solid rgb(128,128,128);
-}
-
-.featured-info p {
+.menu-page .featured-info ul {
     font-style: italic;
 }
 
-.featured-info ul{
-    list-style: none;
-    padding-left: 0;
-}
 
 /*
-    GLOBAL FOOTER STYLE
+    GLOBAL FOOTER STYLES
 */
 
 footer{
