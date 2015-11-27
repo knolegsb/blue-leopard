@@ -69,6 +69,11 @@ p{
     margin-top: 1.4211em;
     margin-bottom: 0;
     font-weight:100;
+    max-width: 700px;
+}
+
+li{
+    font-weight:100;
 }
 
 img {
@@ -94,6 +99,7 @@ a:active{
 .button{
     background-color: rgb(172, 140,71);
     border-radius: 8px;
+    max-width: 250px;
 }
 
 .button a {    
@@ -119,6 +125,14 @@ a:active{
     font-style: italic;
 }
 
+@media screen and (min-width: 1050px){
+    .featured-info{
+        float: left;
+        width:30%;
+        margin-left: 3%;
+    }
+}
+
 .featured-info ul{
     list-style: none;
     padding-left: 0;
@@ -131,6 +145,11 @@ a:active{
 @media screen and (min-width: 750px){
     .landing{
         text-align: center;
+    }
+
+    .landing p {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -231,6 +250,13 @@ a:active{
     font-style: italic;
 }
 
+.menu-page .featured-info{
+    float:none;
+    text-align: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*
     GLOBAL FOOTER STYLES
@@ -238,6 +264,7 @@ a:active{
 
 footer{
     padding: 10px 0;
+    clear: both;
 }
 
 footer h4 {
