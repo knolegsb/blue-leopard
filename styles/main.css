@@ -297,6 +297,11 @@ a:active{
         width: 56%;
     }
 
+    .location-page .landing p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .location-page .sidebar{
         float:right;
         width: 30%;
